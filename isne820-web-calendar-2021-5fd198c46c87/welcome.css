@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+	font-family: 'Indie Flower', cursive;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(https://wallpapercave.com/wp/wp4015299.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.welcome{
+	padding: 20px 30px;
+	font-size: 50px;
+	background-color: rgba(255, 255, 255, 50%);
+	text-align: center;
+	color: darkslategrey;
+}
+.welcome button{
+	cursor: pointer;
+	background-color: rgb(255, 181, 209);
+	color: black;
+	border: 2px solid floralwhite;
+	margin-top: 20px;
+	margin-left: 110px;
+	width: 75%;
+	display: block;
+	font-size: 20PX;
+	padding: 10px;
+}
